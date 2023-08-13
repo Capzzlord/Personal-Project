@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #333;
+}
+
+.converter {
+    width: 60%;
+    height: 60%;
+    max-width: 400px;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #90EE90;
+}
+
+h1 {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    border-bottom: 1px solid green;
+}
+
+input, select, button {
+    margin: 10px;
+    padding: 5px;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+}
